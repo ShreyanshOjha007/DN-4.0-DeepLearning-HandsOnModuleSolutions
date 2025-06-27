@@ -60,7 +60,7 @@ EXEC UPDATEEMPLOYEEBONUS(5, 'HR');
 
 --Senario 3:-
 
-CREATE OR REPLACE PROCEDURE Transfer_Amount (
+CREATE OR REPLACE PROCEDURE TransferFunds (
     from_account_id   IN NUMBER,
     to_account_id     IN NUMBER,
     amount_to_transfer IN NUMBER
