@@ -1,0 +1,21 @@
+1. Understanding Recursive Algorithms:
+
+   # Explain the concept of recursion and how it can simplify certain problems.
+   
+  -> Recursion is programming technique in which function calls itself to solve a problem by breaking it down into smaller subproblems.
+  
+     It has two components : 
+        1.Base case : The condition to stop the recursion
+        2.Recursive case : The function calls itself with a modified input to move towards the base case
+
+4. Analysis:
+
+    # Discuss the time complexity of your recursive algorithm.
+	
+   -> The time complexity of the recursive solution is O(n)  as the function is recursive calling itself till index is equal to the growth rate array length.
+      
+      The space complexity is also O(n).
+
+    #  Explain how to optimize the recursive solution to avoid excessive computation.
+
+   ->  Using the iterative method for calculating the next value with the growth rate the function stack space on O(n) can be reduced to O(1). Thus this will be optimized solution for the recursive solution.

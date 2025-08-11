@@ -1,0 +1,54 @@
+1. Understand Asymptotic Notations:
+
+ a. Explain Big O notation and how it helps in analyzing algorithms.
+
+ -> Big O notations are used to describe the time or space complexity of the algorithms. Big O is a way to express the upper bound of an
+    algorithm's time or space complexity.
+
+-> It describes the asymptotic behavior of a function, not its exact value.
+
+-> It can be used to compare the efficiency of different algorithms or data structures.
+
+-> Enables the developers to optimize the code and improve overall performance.
+
+
+2. Describe the best, average, and worst-case scenarios for search operations.
+
+-> Best Case: We find the item right away(at the start). Time: O(1)
+
+-> Average Case: We find the item somewhere in the middle. Time: O(n)
+
+-> Worst Case: The item is at the very end or not in the list at all, we check everything. Time: O(n).
+
+For the linear search the best, average and worst-case scenarios are same as described above but for the binary search it's different.
+
+For binary search :
+
+-> Best Case: We find the item in the middle of the list. Time: O(1)
+
+-> Average Case:  We find the item somewhere in the left half or the right half. Time: O(log n) 
+
+-> Worst Case: keep splitting till the very last possible element, or it's not there Time: O(log n)
+
+
+4. Analysis:
+
+ 1. Compare the time complexity of linear and binary search algorithms.
+
+-> Linear Search:
+     Time Complexity: O(n)
+     Checks each element one by one.
+
+-> Binary Search:
+    Time Complexity: O(log n)
+    Repeatedly divides the sorted list in half.
+
+-> Linear Search works on unsorted or sorted lists.
+
+-> Binary Search only works on sorted lists.
+
+2. Discuss which algorithm is more suitable for your platform and why.
+
+-> In my solution as i have created an list of product object and thus i have to sort them before applying binary search on it therefore it make the linear
+   search more suitable for my solution but for the real life scenario we use the database query to store the product indexed wise and thus it will take only 
+   constant time or O(log n) time for the query to search for the product.
